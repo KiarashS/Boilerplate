@@ -44,4 +44,27 @@ When you're ready to deploy the application to other computers, you can create a
 
 
 
+## Use of the PYTHONPATH variable
+
+An example of when to use PYTHONPATH would be if you have source code in a `src` folder and tests in a `tests` folder. When running tests, however, those tests can't normally access modules in `src` unless you hard-code relative paths.
+
+To solve this problem, you could add the path to `src` to PYTHONPATH by creating an `.env` file within your VS Code workspace.
+
+`PYTHONPATH=src`
+
+
+Then set `python.envFile` in your `settings.json` file to point to the `.env` file you just created. For example, if the `.env` file was in your workspace root, your `settings.json` would be set as shown:
+
+`"python.envFile": "${workspaceFolder}/.env"`
+
+
+The value of PYTHONPATH can contain multiple locations separated by `os.pathsep`: a semicolon (;) on Windows and a colon (:) on Linux/macOS. 
+
+Note: PYTHONPATH does **not** specify a path to a Python interpreter itself. For additional information about PYTHONPATH, read the PYTHONPATH documentation.
+
+
+
+
 Learn more: https://docs.python-guide.org/writing/structure/
+
+
