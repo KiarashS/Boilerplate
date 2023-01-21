@@ -66,5 +66,5 @@ Note: PYTHONPATH does **not** specify a path to a Python interpreter itself. For
 
 
 Learn more: https://docs.python-guide.org/writing/structure/
-
-
+Polyglot Notebooks: https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.dotnet-interactive-vscode
+Python Extension Template: https://code.visualstudio.com/api/advanced-topics/python-extension-template
