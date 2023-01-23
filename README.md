@@ -63,9 +63,17 @@ The value of PYTHONPATH can contain multiple locations separated by `os.pathsep`
 Note: PYTHONPATH does **not** specify a path to a Python interpreter itself. For additional information about PYTHONPATH, read the PYTHONPATH documentation.
 
 
+## Useful Extensions
 
+Learn more: https://docs.python-guide.org/writing/structure/ 
 
-Learn more: https://docs.python-guide.org/writing/structure/
-Polyglot Notebooks: https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.dotnet-interactive-vscode
-Python Extension Template: https://code.visualstudio.com/api/advanced-topics/python-extension-template
-Azure Machine Learning: https://marketplace.visualstudio.com/items?itemName=ms-toolsai.vscode-ai
+Polyglot Notebooks: https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.dotnet-interactive-vscode 
+
+Python Extension Template: https://code.visualstudio.com/api/advanced-topics/python-extension-template 
+
+Azure Machine Learning: https://marketplace.visualstudio.com/items?itemName=ms-toolsai.vscode-ai 
+
+GitHub Pull Requests and Issues: https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github 
+
+GitHub Repositories: https://marketplace.visualstudio.com/items?itemName=github.remotehub
+
