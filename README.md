@@ -1,4 +1,4 @@
-# A simple  boilerplate code for Python in VS Code!
+# A simple  boilerplate template for Python in VS Code!
 
 1. Open the Command Palette (Ctrl+Shift+P), start typing the **Python: Create Environment**
 2. To select a specific environment, use the **Python: Select Interpreter** command from the Command Palette (Ctrl+Shift+P)
