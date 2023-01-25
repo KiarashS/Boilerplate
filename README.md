@@ -1,5 +1,7 @@
 # A simple  boilerplate template for Python in VS Code!
 
+## Create virtual environment
+
 1. Open the Command Palette (Ctrl+Shift+P), start typing the **Python: Create Environment**
 2. To select a specific environment, use the **Python: Select Interpreter** command from the Command Palette (Ctrl+Shift+P)
 
@@ -63,7 +65,7 @@ The value of PYTHONPATH can contain multiple locations separated by `os.pathsep`
 Note: PYTHONPATH does **not** specify a path to a Python interpreter itself. For additional information about PYTHONPATH, read the PYTHONPATH documentation.
 
 
-## Useful Extensions
+## Useful VsCode Extensions
 
 Learn more: https://docs.python-guide.org/writing/structure/ 
 
