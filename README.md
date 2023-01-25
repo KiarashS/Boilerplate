@@ -1,10 +1,11 @@
-# A simple  boilerplate template for Python in VS Code!
+# A simple  boilerplate template for Python in VsCode!
 
 ## Create virtual environment
 
 1. Open the Command Palette (Ctrl+Shift+P), start typing the **Python: Create Environment**
 2. To select a specific environment, use the **Python: Select Interpreter** command from the Command Palette (Ctrl+Shift+P)
 
+Or use `create-venv.ps1` and `activate-venv.ps1` files. 
 
 
 ## Changing the execution policy of PowerShell
