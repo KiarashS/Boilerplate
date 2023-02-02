@@ -66,6 +66,21 @@ The value of PYTHONPATH can contain multiple locations separated by `os.pathsep`
 Note: PYTHONPATH does **not** specify a path to a Python interpreter itself. For additional information about PYTHONPATH, read the PYTHONPATH documentation.
 
 
+## Virtual Environments
+
+You can give multiple directory arguments to create with a single command several virtual environments, into which you then install different sets of dependencies. `venv` can take a number of options:
+
+|Option|Purpose|
+|---|---|
+|--clear|Removes any existing directory content before installing the virtual environment|
+|--copies|Installs files by copying on the Unix-like platforms where using symbolic links is the default|
+|--h or --help|Prints out a command-line summary and a list of available options|
+|--system-site-packages|Adds the standard system site-packages directory to the environment’s search path, making modules already installed in the base Python available inside the environment|
+|--symlinks|Installs files by using symbolic links on platforms where copying is the system default|
+|--upgrade|Installs the running Python in the virtual environment, replacing whichever version the environment was created with|
+|--without-pip|Inhibits the usual behavior of calling ensurepip to bootstrap the pip installer utility into the environment|
+
+
 ## Useful VsCode Extensions
 
 Learn more: https://docs.python-guide.org/writing/structure/ 
